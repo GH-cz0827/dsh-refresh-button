@@ -1,0 +1,85 @@
+{
+  "format": 1,
+  "title": {
+    "en": "DSH UI Buttons",
+    "zh": "DSH UI 按钮"
+  },
+  "description": {
+    "en": "Small, dependency-free buttons and controls for the DeepSeek Harness Web UI.",
+    "zh": "为 DeepSeek Harness Web UI 提供的轻量按钮与控件。"
+  },
+  "metadata": {
+    "categories": {
+      "ui": {
+        "title": {
+          "en": "UI Enhancements",
+          "zh": "UI 增强"
+        }
+      },
+      "remote": {
+        "title": {
+          "en": "Remote & Mobile",
+          "zh": "远程与移动端"
+        }
+      },
+      "dev": {
+        "title": {
+          "en": "Development & Runtime",
+          "zh": "开发与运行时"
+        }
+      },
+      "tools": {
+        "title": {
+          "en": "Tools & Capabilities",
+          "zh": "工具与能力"
+        }
+      }
+    }
+  },
+  "plugins": [
+    {
+      "name": "dsh-refresh-button",
+      "title": {
+        "en": "Refresh Button",
+        "zh": "刷新按钮"
+      },
+      "description": {
+        "en": "One-click reload button for the DeepSeek Harness Web UI: a small refresh control in the window-menu row, plus F5 / Ctrl+Shift+R shortcuts.",
+        "zh": "在 Web UI 的窗口菜单行加一个刷新按钮，并支持 F5 / Ctrl+Shift+R 快捷键重载界面。"
+      },
+      "icon": "assets/icon.svg",
+      "homepage": "https://github.com/GH-cz0827/dsh-refresh-button#readme",
+      "repository": {
+        "url": "https://github.com/GH-cz0827/dsh-refresh-button"
+      },
+      "metadata": {
+        "category": "ui",
+        "keywords": [
+          "dsh",
+          "dsh-plugin",
+          "deepseek-harness",
+          "harness-plugin",
+          "ui",
+          "refresh",
+          "reload",
+          "web-ui",
+          "hot-reload"
+        ]
+      },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1792845946,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/GH-cz0827/dsh-refresh-button",
+            "commit": "1b6e8ebd4a902a4692473c17f4f5d23d6b539234"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.1 <0.3.0-0"
+          }
+        }
+      ]
+    }
+  ]
+}
