@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="Refresh">
+  <!-- Original artwork for dsh-refresh-button (MIT, drawn for this package):
+       a 3/4 circular arrow with a solid arrowhead, single ink colour so the
+       host can invert it on dark themes. -->
+  <g fill="none" stroke="#111111" stroke-width="26" stroke-linecap="round">
+    <path d="M204 92a82 82 0 1 0 10 60" />
+  </g>
+  <path d="M214 44 L214 108 L152 108 Z" fill="#111111" />
+</svg>

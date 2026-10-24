@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Refresh Button",
+    "description": "Adds a reload button to the window-menu row of the Web UI, with F5 and Ctrl+Shift+R as shortcuts."
+  }
+}

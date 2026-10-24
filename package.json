@@ -1,0 +1,66 @@
+{
+  "name": "dsh-refresh-button",
+  "version": "1.0.0",
+  "description": "One-click reload button for the DeepSeek Harness Web UI: a small refresh control in the window-menu row, plus F5 / Ctrl+Shift+R shortcuts.",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./assets/icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "assets/icon.svg",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "README.md",
+    "README.zh.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "icon": "assets/icon.svg",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "harness-plugin",
+    "ui",
+    "refresh",
+    "reload",
+    "web-ui",
+    "hot-reload"
+  ],
+  "license": "MIT",
+  "author": "GH-cz0827",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GH-cz0827/dsh-refresh-button.git"
+  },
+  "homepage": "https://github.com/GH-cz0827/dsh-refresh-button#readme",
+  "bugs": {
+    "url": "https://github.com/GH-cz0827/dsh-refresh-button/issues"
+  },
+  "scripts": {
+    "pack": "npm pack",
+    "index": "node tools/build-index.mjs"
+  },
+  "engines": {
+    "node": ">=20",
+    "dsh": ">=0.2.0-rc.1 <0.3.0-0"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime"
+      ]
+    }
+  }
+}
