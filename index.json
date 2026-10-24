@@ -44,7 +44,7 @@
         "zh": "刷新按钮"
       },
       "description": {
-        "en": "One-click reload button for the DeepSeek Harness Web UI: a small refresh control in the window-menu row, plus F5 / Ctrl+Shift+R shortcuts.",
+        "en": "One-click reload button for the DeepSeek Harness desktop app: a small refresh control in the window-menu row, plus F5 / Ctrl+Shift+R shortcuts.",
         "zh": "在 Web UI 的窗口菜单行加一个刷新按钮，并支持 F5 / Ctrl+Shift+R 快捷键重载界面。"
       },
       "icon": "assets/icon.svg",
@@ -68,12 +68,12 @@
       },
       "versions": [
         {
-          "version": "1.0.0",
-          "publishTimestamp": 1792845946,
+          "version": "1.0.1",
+          "publishTimestamp": 1792847031,
           "source": {
             "type": "git",
             "url": "https://github.com/GH-cz0827/dsh-refresh-button",
-            "commit": "1b6e8ebd4a902a4692473c17f4f5d23d6b539234"
+            "commit": "258968988527063790e90a084a677af5cb9cb2ba"
           },
           "engines": {
             "dsh": ">=0.2.0-rc.1 <0.3.0-0"
