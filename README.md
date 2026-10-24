@@ -2,8 +2,8 @@
 
 [中文](README.zh.md) | English
 
-A DeepSeek Harness (dsh) bundle that puts a **reload button** into the Web UI's
-window-menu row — the row that holds the `应用` / `App` label — and binds
+A DeepSeek Harness (dsh) bundle that puts a **reload button** into the desktop
+app's window-menu row — the row that holds the `应用` / `App` label — and binds
 <kbd>F5</kbd> / <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>R</kbd> to the same action.
 The desktop shell has no browser chrome, so this is the only one-click way to
 reload the page after a client-side plugin change.

@@ -1,6 +1,6 @@
 {
   "meta": {
     "title": "刷新按钮",
-    "description": "在 Web UI 的窗口菜单行加一个刷新按钮，并支持 F5 / Ctrl+Shift+R 快捷键重载界面。"
+    "description": "在桌面端的窗口菜单行加一个刷新按钮，并支持 F5 / Ctrl+Shift+R 快捷键重载界面。"
   }
 }

@@ -1,7 +1,7 @@
 {
   "name": "dsh-refresh-button",
-  "version": "1.0.0",
-  "description": "One-click reload button for the DeepSeek Harness Web UI: a small refresh control in the window-menu row, plus F5 / Ctrl+Shift+R shortcuts.",
+  "version": "1.0.1",
+  "description": "One-click reload button for the DeepSeek Harness desktop app: a small refresh control in the window-menu row, plus F5 / Ctrl+Shift+R shortcuts.",
   "type": "module",
   "main": "lib/index.js",
   "exports": {

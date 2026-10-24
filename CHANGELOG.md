@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.0.1 — 2026-10-24
+
+Wording fix, no behaviour change.
+
+- The manifest description, both READMEs and both locales now say **desktop app**
+  instead of "Web UI": the button is mounted into the desktop window-menu row
+  (the one with the `应用` / `App` label), which a plain browser page does not
+  have. Plugin lists and the market card pick this text up.
+
 ## 1.0.0 — 2026-10-24
 
 First distributable release.

@@ -2,7 +2,7 @@
 
 [English](README.md) | 中文
 
-给 DeepSeek Harness（dsh）Web UI 的**窗口菜单行**（带 `应用` / `App` 字样的那一行）
+给 DeepSeek Harness（dsh）桌面端的**窗口菜单行**（带 `应用` / `App` 字样的那一行）
 加一个刷新按钮，并把 <kbd>F5</kbd>、<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>R</kbd>
 绑到同一个动作。桌面端外壳没有浏览器工具栏，这是改完客户端插件后一键重载页面的入口。
 
